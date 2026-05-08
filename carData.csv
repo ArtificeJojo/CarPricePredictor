@@ -1,26 +1,100 @@
-Car_Brand,Car_Name,Year,MSRP(USD),Present_Price(USD),Miles_Driven,Body_Style,Engine_Type,Feul_Type,Transmission,Owners,Damage
-Volkswagen,Jetta SEL,2019,25000,15490,19723,Sedan,4-Cyl,Gasoline,Automatic,1,None
-Lincoln,Corsair Reserve,2022,41410,24695,46153,SUV,4-Cyl,Gasoline,Automatic,1,None
-Lincoln,Corsair Standard,2022,36580,23995,30788,SUV,4-Cyl,Gasoline,Automatic,1,None
-Honda,Accord LX,2021,24970,19498,71465,Sedan,4-Cyl,Gasoline,Automatic,1,None
-Mazda,CX-5 Touring,2019,26615,15697,76423,SUV,4-Cyl,Gasoline,Automatic,1,None
-Kia,Sorento S,2023,32890,25536,21629,SUV,4-Cyl,Gasoline,Automatic,1,None
-Acura,Integra A-Spec,2024,36800,28350,16569,Sedan,4-Cyl,Gasoline,Automatic,1,None
-Honda,CR-V Sport,2024,34850,31334,16813,SUV,4-Cyl,Hybrid,Automatic,1,None
-Jeep,Wrangler Sport,2022,34820,22490,48007,SUV,4-Cyl,Gasoline,Automatic,1,None
-Jeep,Grand Cherokee L,2024,40035,23374,61875,SUV,6-Cyl,Gasoline,Automatic,1,None
-Honda,Civic LX,2020,20550,15988,71694,Sedan,4-Cyl,Gasoline,Automatic,1,None
-Honda ,Accord Sport,2021,28445,17690,72330,Sedan,4-Cyl,Gasoline,Automatic,2,None
-Honda,Passport EX,2019,36410,20334,65368,SUV,6-Cyl,Gasoline,Automatic,1,None
-Chevrolet,Silverado1500,2019,36095,20993,98305,Pickup,6-Cyl,Flex-Fuel,Automatic,1,Minor
-Volkswagen,Jetta SE,2023,25480,17490,19112,Sedan,4-Cyl,Gasoline,Automatic,1,None
-Volkswagen,Jetta Sport,2023,23450,16788,27956,Sedan,4-Cyl,Gasoline,Automatic,1,None
-Volkswagen,Jetta SE,2023,25480,17990,9870,Sedan,4-Cyl,Gasoline,Automatic,1,None
-Kia,K5 LXS,2025,26990,22025,23132,Sedan,4-Cyl,Gasoline,Automatic,1,None
-Toyota,Corolla SE,2019,21658,14988,57604,Sedan,4-Cyl,Gasoline,Manual,1,None
-Volkswagen,Taos SE,2022,37895,17898,22280,SUV,4-Cyl,Gasoline,Automatic,1,None
-Honda,CR-V Sport,2023,32450,27006,26865,SUV,4-Cyl,Hybrid,Automatic,1,None
-Subaru,Outback 2.5i,2018,26810,13997,78018,Wagon,4-Cyl,Gasoline,Automatic,1,None
-Volkswagen,Passat SE,2021,26995,13497,62108,Sedan,4-Cyl,Gasoline,Automatic,1,None
-Jeep,Wrangler Sahara,2019,38395,27501,14570,SUV,4-Cyl,Gasoline,Automatic,1,None
-Mercedes-Benz,GLC 300,2019,40700,16797,53361,SUV,4-Cyl,Gasoline,Automatic,1,None
+Car_Brand,Car_Name,Year,MSRP(USD),Present_Price(USD),Miles_Driven,Body_Style,Engine_Type,Feul_Type,Transmission,Owners,Damage,
+Volkswagen,Jetta SEL,2019,25000,15490,19723,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Lincoln,Corsair Reserve,2022,41410,24695,46153,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Lincoln,Corsair Standard,2022,36580,23995,30788,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Honda,Accord LX,2021,24970,19498,71465,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Mazda,CX-5 Touring,2019,26615,15697,76423,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Kia,Sorento S,2023,32890,25536,21629,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Acura,Integra A-Spec,2024,36800,28350,16569,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Honda,CR-V Sport,2024,34850,31334,16813,SUV,4-Cyl,Hybrid,Automatic,1,None,
+Jeep,Wrangler Sport,2022,34820,22490,48007,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Jeep,Grand Cherokee L,2024,40035,23374,61875,SUV,6-Cyl,Gasoline,Automatic,1,None,
+Honda,Civic LX,2020,20550,15988,71694,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Honda ,Accord Sport,2021,28445,17690,72330,Sedan,4-Cyl,Gasoline,Automatic,2,None,
+Honda,Passport EX,2019,36410,20334,65368,SUV,6-Cyl,Gasoline,Automatic,1,None,
+Chevrolet,Silverado 1500,2019,36095,20993,98305,Pickup,6-Cyl,Flex-Fuel,Automatic,1,Minor,
+Volkswagen,Jetta SE,2023,25480,17490,19112,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Volkswagen,Jetta Sport,2023,23450,16788,27956,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Volkswagen,Jetta SE,2023,25480,17990,9870,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Kia,K5 LXS,2025,26990,22025,23132,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Toyota,Corolla SE,2019,21658,14988,57604,Sedan,4-Cyl,Gasoline,Manual,1,None,
+Volkswagen,Taos SE,2022,37895,17898,22280,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Honda,CR-V Sport,2023,32450,27006,26865,SUV,4-Cyl,Hybrid,Automatic,1,None,
+Subaru,Outback 2.5i,2018,26810,13997,78018,Wagon,4-Cyl,Gasoline,Automatic,1,None,
+Volkswagen,Passat SE,2021,26995,13497,62108,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Jeep,Wrangler Sahara,2019,38395,27501,14570,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Mercedes-Benz,GLC 300,2019,40700,16797,53361,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Honda,Pilot EXL,2020,38995,19595,85262,SUV,6-Cyl,Gasoline,Automatic,1,None,
+Chevrolet,Silverado 2500 HD,2019,38200,15481,135554,Pickup,8-Cyl,Flex-Fuel,Automatic,1,None,
+Toyota,Sienna XLE,2020,38660,26490,77201,Minivan,6-Cyl,Gasoline,Automatic,1,None,
+Kia,Sorento L,2019,27035,11396,99498,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Infiniti,QX50,2019,39500,12800,103875,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Ford,F-150 XLT,2018,33300,17995,126754,Pickup,6-Cyl,Gasoline,Automatic,3,None,
+Audi,Q3 Premium Plus,2018,37900,11550,79325,SUV,4-Cyl,Gasoline,Automatic,1,Moderate,
+Honda,Accord EXL,2015,30295,10400,167318,Sedan,6-Cyl,Gasoline,Automatic,1,None,
+Honda,Odessey,2020,47320,16995,166779,Minivan,6-Cyl,Gasoline,Automatic,1,None,
+Toyota,Tundra SR5,2020,40900,32500,57230,Pickup,8-Cyl,Gasoline,Automatic,1,None,
+Subaru,Outback 2.5i Premium,2015,26995,6900,164292,Wagon,4-Cyl,Gasoline,Automatic,1,None,
+Honda ,HR-V LX,2019,21920,14961,69631,SUV,4-Cyl,Gasoline,Automatic,1,Minor,
+Toyota,4Runner Limited Edition,2019,45660,35989,21457,SUV,6-Cyl,Gasoline,Automatic,1,None,
+Ford,F-250 XL,2021,35925,33900,130567,Pickup,8-Cyl,Diesel,Automatic,1,None,
+Ford,Escape S,2020,24885,14000,55898,SUV,3-Cyl,Gasoline,Automatic,1,None,
+Buick,Encore GX Preferred,2023,27095,15297,47012,SUV,3-Cyl,Gasoline,Automatic,1,None,
+Subaru,Outback Limited XT,2020,37745,18992,71999,Wagon,4-Cyl,Gasoline,Automatic,1,None,
+Volvo,XC60 T5 Inscription,2021,49200,27991,29637,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Kia,Telluride SX Prestige X-Pro,2024,53185,41781,15469,SUV,6-Cyl,Gasoline,Automatic,1,None,
+Volkswagen,Tiguan SE R-Line Black,2023,32580,22895,31214,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Volkswagen,Taos S,2023,24155,17995,20593,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Volkswagen,Jetta Wolfsburg Edition,2018,21195,8495,113811,Sedan,4-Cyl,Gasoline,Manual,3,None,
+Chevrolet,Silverado 1500 RST,2021,43900,27991,76470,Pickup,8-Cyl,Gasoline,Automatic,1,None,
+Volkswagen,Jetta S,2024,21435,16495,30856,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Ford,Bronco Big Bend,2024,39870,36995,22047,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Lincoln,Corsair Standard,2023,40085,25600,44787,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Genesis,GV80 2.5T Prestige,2025,70450,54595,21199,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Toyota,Highlander XLE,2020,38680,23355,99900,SUV,4-Cyl,Hybrid,Automatic,1,None,
+Acura,Integra A-Spec Technology,2024,36500,28998,18634,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Mercedes-Benz,GLB 250,2026,43800,38485,696,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Volvo,XC40 T5 Inscription,2021,41450,22994,41501,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Chevrolet,Silverado 1500 LT Z71,2018,50450,21790,111383,Pickup,8-Cyl,Gasoline,Automatic,1,None,
+Volkswagen,Atlas,2021,34905,16895,91892,SUV,4-Cyl,Gasoline,Automatic,1,None,
+GMC,Yukon XL SLT,2024,67900,59500,27354,SUV,8-Cyl,Gasoline,Automatic,1,None,
+Subaru,Outback 2.5i Limited,2016,30395,6990,190995,Wagon,4-Cyl,Gasoline,Automatic,1,None,
+BMW,X5 xDrive35i,2016,67000,9999,142960,SUV,6-Cyl,Gasoline,Automatic,1,Moderate,
+Volkswagen,Golf Limited Edition,2016,24995,6499,135023,Wagon,4-Cyl,Gasoline,Automatic,2,None,
+Chevrolet,Traverse RS,2020,44795,15499,115669,SUV,6-Cyl,Gasoline,Automatic,1,Minor,
+Ram,1500 Big Horn,2020,42890,19997,93609,Pickup,8-Cyl,Gasoline,Automatic,2,None,
+Jeep,Grand Cherokee Limited,2014,36495,9499,76650,SUV,6-Cyl,Diesel,Automatic,1,Minor,
+Hyundai,Kona SE,2018,19500,10590,87885,SUV,4-Cyl,Gasoline,Automatic,3,None,
+GMC,Acadia SLE-1,2019,32800,9900,126812,SUV,4-Cyl,Gasoline,Automatic,3,None,
+Infiniti,Q50,2014,36450,12295,78578,Sedan,6-Cyl,Gasoline,Automatic,5,None,
+Mini,Cooper,2019,22900,9999,101425,Hatchback,3-Cyl,Gasoline,Automatic,3,None,
+Nissan,Rouge S,2016,23330,5500,157944,SUV,4-Cyl,Gasoline,Automatic,1,Minor,
+Audi,Q3 Premium ,2017,31800,8999,105990,SUV,4-Cyl,Gasoline,Automatic,3,None,
+Honda,CR-V EX,2019,28750,19900,61468,SUV,4-Cyl,Gasoline,Automatic,1,None,
+Audi,Q5 Premium,2020,50945,16995,83022,SUV,4-Cyl,Gasoline,Automatic,3,None,
+Nisaan,Frontier SV,2014,24460,9800,172153,Pickup,6-Cyl,Diesel,Automatic,1,None,
+Lincoln,Aviator Reserve,2020,56190,22999,88625,SUV,6-Cyl,Gasoline,Automatic,2,None,
+Mercedes-Benz,SL Class SL500,2003,87655,11500,63780,Convertible,8-Cyl,Gasoline,Automatic,5,Minor,
+Kia,Sportage EX,2015,28790,9488,90464,SUV,4-Cyl,Gasoline,Automatic,3,None,
+Jeep,Wrangler Sport,2016,23895,12099,104908,SUV,6-Cyl,Gasoline,Automatic,1,None,
+Mazda,Mazda6 Touring,2017,25245,8577,131514,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Hyundai,Elantra SEL,2020,20050,13500,58306,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Porsche,Cayenne S,2015,75095,11438,146338,SUV,6-Cyl,Gasoline,Automatic,1,None,
+Ram,1500 STL,2013,37500,11888,149384,Pickup,8-Cyl,Gasoline,Automatic,1,Minor,
+Ford,F350 XLT,2000,28000,19428,98213,Pickup,8-Cyl,Diesel,Automatic,4,None,
+Honda,Accord LX,2014,22755,10181,108167,Sedan,4-Cyl,Gasoline,Automatic,1,None,
+Nissan,Frontier SE,2006,24000,6888,176963,Pickup,6-Cyl,Gasoline,Automatic,1,Minor,
+Buick,Enclave Leather Group,2014,44040,12893,23903,suv,6-Cyl,Gasoline,Automatic,2,None,
+Toyota,Tacoma Base,2009,24300,12900,156489,Pickup,6-Cyl,Gasoline,Automatic,1,None,
+Mercedes-Benz,C-Class C300,2010,33600,6995,91235,Sedan,6-Cyl,Gasoline,Automatic,5,None,
+Mercedes-Benz,E-Class E350,2014,51900,7495,154000,Sedan,6-Cyl,Gasoline,Automatic,2,None,
+Ford,Mustang,2013,16200,10900,95406,Coupe,6-Cyl,Gasoline,Automatic,2,None,
+Honda,Odessey EX L,2015,35775,10500,149682,Minivan,6-Cyl,Gasoline,Automatic,1,None,
+Chevrolet,Tahoe LT,2010,42130,16001,67627,SUV,8-Cyl,Flex-Fuel,Automatic,1,None,
+Kia,Forte SX,2013,22350,5995,114664,Coupe,4-Cyl,Gasoline,Automatic,3,None,
+Mercedes-Benz,SL Class SL500,2007,94800,17980,45781,Convertible,8-Cyl,Gasoline,Automatic,3,None,
+Mazda,RX-8 Sport,2011,26795,5900,82769,Coupe,Rotary,Gasoline,Automatic,4,Minor,
+Volkswagen,"ID,4 Pro",2022,45730,16890,69964,SUV,Electric,Electric,Automatic,1,None,
+Porsche,Taycan GTS,2024,139300,99999,19634,Sedan,Electric,Electric,Automatic,1,None,
+Kia,EV6 Wind,2024,48700,26265,8901,SUV,Electric,Electric,Automatic,1,None,
+Tesla,Model S Long Range Plus,2020,74990,29695,65586,Sedan,Electric,Electric,Automatic,1,None,
