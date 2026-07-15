@@ -20,9 +20,10 @@ def LoadData():
 
     return dataTable
 
-def PriceToInt(d):
-    d['Market Price'] = d['Market Price'].astype(int)
-    return d
+def PriceToInt(data):
+    data['Market Price'] = data['Market Price'].astype(int)
+    return data
+
 def main():
     data = LoadData()
 
