@@ -24,6 +24,17 @@ def PriceToInt(data):
     data['Market Price'] = data['Market Price'].astype(int)
     return data
 
+def Normalize(data):
+    data['Market Price'] = data['Market Price']/data['Market Price'].max()
+    data['Current Price'] = data['Current Price'] / data['Current Price'].max()
+    data['Miles'] = data['Miles'] / data['Miles'].max()
+
+    bins = np.linspace(data['Market Price'].min(), data['Market Price'].max(), 4)
+    groupNames = ['Low', 'Medium', 'High']
+    data['Binned Price'] = pd.cut(data['Current Price'], bins, labels=groupNames, includeLow = True)
+
+    return data
+
 def main():
     data = LoadData()
 
