@@ -31,15 +31,29 @@ def Normalize(data):
 
     bins = np.linspace(data['Market Price'].min(), data['Market Price'].max(), 4)
     groupNames = ['Low', 'Medium', 'High']
-    data['Binned Price'] = pd.cut(data['Current Price'], bins, labels=groupNames, includeLow = True)
+    data['Binned Price'] = pd.cut(data['Current Price'], bins, labels=groupNames, include_lowest=True)
 
     return data
 
+def ToNum(data):
+    pd.get_dummies(data['Brand'])
+    pd.get_dummies(data['Name'])
+    pd.get_dummies(data['Body Style'])
+    pd.get_dummies(data['Engine'])
+    pd.get_dummies(data['Fuel'])
+    pd.get_dummies(data['Transmission'])
+
+    data.describe()
+
+    return data
+
+
 def main():
     data = LoadData()
-
     data = PriceToInt(data)
+    data = Normalize(data)
+    data = ToNum(data)
 
-    print(data.head())
+    print(data)
 
 main()
