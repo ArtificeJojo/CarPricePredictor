@@ -47,6 +47,9 @@ def ToNum(data):
 
     return data
 
+def VisualizeData(data):
+    plt.boxplot(data)
+    return data
 
 def main():
     data = LoadData()
